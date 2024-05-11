@@ -24,40 +24,34 @@
       </div>
     </nav>
 
-    <div class="parallax" id="home">
-      <img src="img/background.jpg" id="background" />
-      <!-- <img src="img/hill1.png" id="hill1" /> -->
-      <img src="img/hill2.png" id="hill2" />
-      <img src="img/hill3.png" id="hill3" />
-      <img src="img/hill4.png" id="hill4" />
-      <img src="img/hill5.png" id="hill5" />
-      <img src="img/tree.png" id="tree" />
-      <h2 id="text">HERA REMPAH</h2>
-      <img src="img/leaf.png" id="leaf" />
-      <img src="img/plant.png" id="plant" />
-    </div>
-
-    <section class="sec" id="about">
-      <h2>Kenapa memlih produk kami ?</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum incidunt
-        labore quidem odit beatae, non similique ipsa minima. Deleniti quisquam
-        pariatur magnam officiis ab, odit soluta adipisci tenetur! Facere,
-        explicabo voluptates doloremque debitis reiciendis, quisquam excepturi
-        dicta praesentium quia quam rerum, quidem tempora amet distinctio
-        pariatur sit iusto odit esse itaque molestiae velit. Similique,
-        doloribus accusantium dolores magni corporis corrupti fugiat repellendus
-        laudantium. A temporibus fugiat laboriosam omnis nemo, atque, dolorum
-        officiis, optio hic et quae necessitatibus nam mollitia distinctio.
-        Laboriosam non delectus praesentium, tenetur magni distinctio quidem
-        omnis impedit esse cum aspernatur maiores quisquam vel, sequi nostrum
-        placeat laudantium voluptas expedita dolorum animi natus totam est enim?
-        Cumque, dolores minima veritatis dolor numquam quisquam eveniet debitis
-        incidunt ut iste corporis omnis expedita temporibus, blanditiis, beatae
-        rem voluptatibus reprehenderit placeat.
-      </p>
-      <br /><br />
+    <!-- home section -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Hera Rempah</h1>
+        <p>rempah rempah dalam kemasan</p>
+        <a href="#produk" class="cta">Lihat Prouk</a>
+      </main>
     </section>
+    <!-- home end -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <h2>Tentang Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/baclground.jpg" alt="tentang kami" />
+        </div>
+        <div class="content">
+          <h3>kenapa memilih produk kami</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
+            cupiditate itaque iste sint totam doloremque nulla exercitationem
+            eligendi error cum!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
 
     <div class="pimg1" id="produk" style="margin-top: 20px">
       <div class="ptext">
@@ -171,7 +165,7 @@
         font-size: 15px;
       "
     >
-      <div class="socials" style="padding: 1rem 0">
+      <div class="socials" id="contact" style="padding: 1rem 0">
         <a href="#"><i data-feather="instagram"></i></a>
       </div>
       <div class="links">
@@ -184,6 +178,7 @@
         <p>created by <a href="">Hera Rempah</a>. | &copy; 2024.</p>
       </div>
     </footer>
+
     <!-- ikon -->
     <script>
       feather.replace();
