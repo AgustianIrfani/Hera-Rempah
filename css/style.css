@@ -368,4 +368,11 @@ body {
     text-align: center;
     padding: 20px 40px;
   }
+  .pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5 {
+  background-attachment: scroll;
+}
 }
