@@ -236,10 +236,11 @@ body {
   font-size: 20px;
 }
 .section img {
-  height: 300px;
-  width: 300px;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  max-height: 200px;
+  max-width: 200px;
 }
 
 .ptext {
@@ -362,5 +363,9 @@ body {
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+  .section {
+    text-align: center;
+    padding: 20px 40px;
   }
 }
